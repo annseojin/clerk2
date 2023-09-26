@@ -14,7 +14,7 @@ const CourseSearch = ({ getSearchResults }) => {
   }
 
   return (
-    <from onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit}>
       <input
         type="text"
         placeholder="제목 키워드 검색"
@@ -28,7 +28,7 @@ const CourseSearch = ({ getSearchResults }) => {
       >
         Search
       </button>
-    </from>
+    </form>
   )
 }
 
